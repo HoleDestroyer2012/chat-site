@@ -1,0 +1,42 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Изменено на более темный цвет */
+    padding: 10px 30px; /* Сократил верхний и нижний внутренний отступ */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Добавил тень для выделения */
+    z-index: 1000; /* Установите достаточно высокий z-index */
+    color: #ddd; /* Цвет текста */
+  }
+  
+  .header-logo-container h2 {
+    font-size: 20px; /* Уменьшил размер шрифта для компактности */
+    margin: 0;
+  }
+  
+  .header-menu-container {
+    display: flex;
+  }
+  
+  .header-menu-container .btn-primary {
+    border: none;
+    background-color: #555; /* Изменено на менее яркий цвет */
+  }
+  
+  /* Offcanvas styles */
+  .offcanvas-header {
+    border-bottom: none;
+  }
+  
+  .offcanvas-title {
+    font-size: 20px; /* Уменьшил размер шрифта для компактности */
+    margin: 0;
+  }
+  
+  .offcanvas-body {
+    padding: 15px; /* Уменьшил внутренний отступ для компактности */
+  }

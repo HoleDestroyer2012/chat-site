@@ -1,0 +1,15 @@
+.message-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px;
+  }
+  
+  .message-content {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    max-width: 70%;
+    position: relative;
+  }
